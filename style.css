@@ -29,6 +29,7 @@ img {
     width: 350px;
     padding: 15px;
     border: 1px solid grey;
+    border-radius: 5px;
     margin: 30px;
     margin-bottom: 10px
 }
@@ -40,8 +41,14 @@ img {
     color: grey;
 }
 
+.line-break {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
 .para {
     padding: 5px;
+    border-radius: 5px;
 }
 
 input {
@@ -51,12 +58,14 @@ input {
 
 input[type=submit] {
     background-color: gold;
+    border-radius: 5px;
 }
 
 button {
     width: 350px;
     height: 30px;
     margin: 15px;
+    border-radius: 5px;
 }
 
 ul {
